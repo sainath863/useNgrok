@@ -1,7 +1,6 @@
 const ngrok = require('ngrok');
 
 
-
 (async function () {
     console.log('Starting ngrok');
   try {

@@ -7,7 +7,7 @@ const App = () => {
   useEffect(()=>{
     axios.get('https://ffcb-2401-4900-1c30-7e92-9dfc-ac43-b106-8eb8.ngrok-free.app',{
      headers: {
-      'ngrok-skip-browser-warning': true, // added to support locally hosting and using custom apps using ngrok
+      'ngrok-skip-browser-warning': true,
      }
     })
     .then(data => {
